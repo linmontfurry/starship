@@ -408,7 +408,7 @@ Lecz jeśli chcesz nieco dostosować Starship:
 
 ## 🤝Wspomóż nas
 
-Zawsze szukamy pomocy od osób **na każdym poziomie zaawansowania**! Jeśli chcesz łatwo rozpocząć pracę nad projektem, wypróbuj <0>good first issue</0>.
+Zawsze szukamy pomocy od osób **na każdym poziomie zaawansowania**! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/starship/starship/issues?q=state%3Aopen%20label%3A%22%F0%9F%8C%B1%20good%20first%20issue%22).
 
 Jeśli płynnie władasz językiem innym niż angielski, bardzo doceniamy każdą pomoc w tłumaczeniu dokumentacji. Jeśli chcesz pomóc, tłumaczenia można dodawać na [Crowdin Starship](https://translate.starship.rs/).
 
