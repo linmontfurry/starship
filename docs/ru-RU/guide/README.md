@@ -408,7 +408,7 @@ eval "$(starship init zsh)"
 
 ## 🤝 Помощь
 
-Мы всегда ищем помощь людей **всех уровней навыков**! Если Вы хотите погрузиться в проект, попробуйте начать с  [good first issue](https://github.com/starship/starship/labels/"🌱%20good%20first%20issue").
+Мы всегда ищем помощь людей **всех уровней навыков**! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/starship/starship/issues?q=state%3Aopen%20label%3A%22%F0%9F%8C%B1%20good%20first%20issue%22).
 
 Если Вы свободно владеете иностранным языком отличным от английского, мы высоко оценим любую помощь в переводе нашей документации на другие языки и поддержании ее в актуальном состоянии. Если вы хотите помочь, переводы могут быть сделаны на платформе [Starship Crowdin](https://translate.starship.rs/).
 
