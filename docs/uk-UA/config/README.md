@@ -567,7 +567,7 @@ discharging_symbol = '💦'
 | `symbol`            | `'🐃 '`                                          | Символ, який знаходиться перед версією Buf.  |
 | `detect_extensions` | `[]`                                            | Які розширення повинні запускати цей модуль. |
 | `detect_files`      | `['buf.yaml', 'buf.gen.yaml', 'buf.work.yaml']` | Які імена файлів мають запускати цей модуль. |
-| `detect_folders`    | `[]`                                            | Які теки мають запускати цей модуль.         |
+| `detect_folders`    | `[]`                                            | В яких теках цей модуль має запускатись.     |
 | `style`             | `'bold blue'`                                   | Стиль модуля.                                |
 | `disabled`          | `false`                                         | Вимкнути модуль `elixir`.                    |
 
@@ -1323,7 +1323,7 @@ format = 'via [🐋 $context](blue bold)'
 | `heuristic`         | `true`                                                                                                  | Використовувати швидший алгоритм визначення версії, щоб ваш starship залишався швидким. |
 | `detect_extensions` | `['csproj', 'fsproj', 'xproj']`                                                                         | Які розширення повинні запускати цей модуль.                                            |
 | `detect_files`      | `['global.json', 'project.json', 'Directory.Build.props', 'Directory.Build.targets', 'Packages.props']` | Які імена файлів мають запускати цей модуль.                                            |
-| `detect_folders`    | `[]`                                                                                                    | Які теки мають запускати цей модуль.                                                    |
+| `detect_folders`    | `[]`                                                                                                    | В яких теках цей модуль має запускатись.                                                |
 | `style`             | `'bold blue'`                                                                                           | Стиль модуля.                                                                           |
 | `disabled`          | `false`                                                                                                 | Вимикає модуль `dotnet`.                                                                |
 
@@ -1364,7 +1364,7 @@ heuristic = false
 | `symbol`            | `'💧 '`                                                      | Символ, який знаходиться перед версією Elixir/Erlang.             |
 | `detect_extensions` | `[]`                                                        | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['mix.exs']`                                               | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `[]`                                                        | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `[]`                                                        | В яких теках цей модуль має запускатись.                          |
 | `style`             | `'bold purple'`                                             | Стиль модуля.                                                     |
 | `disabled`          | `false`                                                     | Вимикає модуль `elixir`.                                          |
 
@@ -1407,7 +1407,7 @@ symbol = '🔮 '
 | `symbol`            | `'🌳 '`                                             | Формат рядка, що представляє символ Elm.                          |
 | `detect_extensions` | `['elm']`                                          | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['elm.json', 'elm-package.json', '.elm-version']` | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `['elm-stuff']`                                    | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `['elm-stuff']`                                    | В яких теках цей модуль має запускатись.                          |
 | `style`             | `'cyan bold'`                                      | Стиль модуля.                                                     |
 | `disabled`          | `false`                                            | Вимикає модуль `elm`.                                             |
 
@@ -1510,7 +1510,7 @@ default = 'unknown user'
 | `style`             | `'bold red'`                         | Стиль модуля.                                                     |
 | `detect_extensions` | `[]`                                 | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['rebar.config', 'elang.mk']`       | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `[]`                                 | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `[]`                                 | В яких теках цей модуль має запускатись.                          |
 | `disabled`          | `false`                              | Вимикає модуль `erlang`.                                          |
 
 ### Змінні
@@ -1548,7 +1548,7 @@ format = 'via [e $version](bold red) '
 | `style`             | `'bold green'`                       | Стиль модуля.                                                     |
 | `detect_extensions` | `['fnl']`                            | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `[]`                                 | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `[]`                                 | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `[]`                                 | В яких теках цей модуль має запускатись.                          |
 | `disabled`          | `false`                              | Вимикає модуль `fennel`.                                          |
 
 ### Змінні
@@ -2273,7 +2273,7 @@ format = 'via [🐂](yellow bold) '
 | `version_format`    | `'v${raw}'`                                                                                     | Формат версії. Доступні змінні `raw`, `major`, `minor` та `patch` |
 | `detect_extensions` | `['hx', 'hxml']`                                                                                | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['project.xml', 'Project.xml', 'application.xml', 'haxelib.json', 'hxformat.json', '.haxerc']` | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `['.haxelib', 'haxe_libraries']`                                                                | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `['.haxelib', 'haxe_libraries']`                                                                | В яких теках цей модуль має запускатись.                          |
 | `symbol`            | `'⌘ '`                                                                                          | Формат рядка, що представляє символ Haxe.                         |
 | `style`             | `'bold fg:202'`                                                                                 | Стиль модуля.                                                     |
 | `disabled`          | `false`                                                                                         | Вимикає модуль `haxe`.                                            |
@@ -2312,7 +2312,7 @@ format = "via [⌘ $version](bold fg:202) "
 | `version_format`    | `'v${raw}'`                          | Формат версії. Доступні змінні `raw`, `major`, `minor` та `patch` |
 | `detect_extensions` | `[]`                                 | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['helmfile.yaml', 'Chart.yaml']`    | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `[]`                                 | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `[]`                                 | В яких теках цей модуль має запускатись.                          |
 | `symbol`            | `'⎈ '`                               | Формат рядка, що представляє символ Helm.                         |
 | `style`             | `'bold white'`                       | Стиль модуля.                                                     |
 | `disabled`          | `false`                              | Вимикає модуль `helm`.                                            |
@@ -2411,7 +2411,7 @@ aliases = { "Max's MacBook Pro" = "home" }
 | `version_format`    | `'v${raw}'`                                                                                                           | Формат версії. Доступні змінні `raw`, `major`, `minor` та `patch` |
 | `detect_extensions` | `['java', 'class', 'gradle', 'jar', 'cljs', 'cljc']`                                                                  | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['pom.xml', 'build.gradle.kts', 'build.sbt', '.java-version', 'deps.edn', 'project.clj', 'build.boot', '.sdkmanrc']` | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `[]`                                                                                                                  | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `[]`                                                                                                                  | В яких теках цей модуль має запускатись.                          |
 | `symbol`            | `'☕ '`                                                                                                                | Формат рядка, що представляє символ Java                          |
 | `style`             | `'red dimmed'`                                                                                                        | Стиль модуля.                                                     |
 | `disabled`          | `false`                                                                                                               | Вимикає модуль `java`.                                            |
@@ -2508,7 +2508,7 @@ set -g __starship_fish_use_job_groups "false"
 | `version_format`    | `'v${raw}'`                          | Формат версії. Доступні змінні `raw`, `major`, `minor` та `patch` |
 | `detect_extensions` | `['jl']`                             | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['Project.toml', 'Manifest.toml']`  | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `[]`                                 | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `[]`                                 | В яких теках цей модуль має запускатись.                          |
 | `symbol`            | `'ஃ '`                               | Формат рядка, що представляє символ Julia.                        |
 | `style`             | `'bold purple'`                      | Стиль модуля.                                                     |
 | `disabled`          | `false`                              | Вимикає модуль `julia`.                                           |
@@ -2546,7 +2546,7 @@ symbol = '∴ '
 | `version_format`    | `'v${raw}'`                          | Формат версії. Доступні змінні `raw`, `major`, `minor` та `patch`                         |
 | `detect_extensions` | `['kt', 'kts']`                      | Які розширення повинні запускати цей модуль.                                              |
 | `detect_files`      | `[]`                                 | Які імена файлів мають запускати цей модуль.                                              |
-| `detect_folders`    | `[]`                                 | Які теки мають запускати цей модуль.                                                      |
+| `detect_folders`    | `[]`                                 | В яких теках цей модуль має запускатись.                                                  |
 | `symbol`            | `'🅺 '`                               | Формат рядка, що представляє символ Kotlin.                                               |
 | `style`             | `'bold blue'`                        | Стиль модуля.                                                                             |
 | `kotlin_binary`     | `'kotlin'`                           | Налаштовує бінарний файл kotlin, який Starship буде використовувати для отримання версії. |
@@ -2600,7 +2600,7 @@ kotlin_binary = 'kotlinc'
 | `user_aliases`*     | `{}`                                                 | Таблиця псевдонімів користувача.                          |
 | `detect_extensions` | `[]`                                                 | Які розширення повинні запускати цей модуль.              |
 | `detect_files`      | `[]`                                                 | Які імена файлів мають запускати цей модуль.              |
-| `detect_folders`    | `[]`                                                 | Які теки мають запускати цей модуль.                      |
+| `detect_folders`    | `[]`                                                 | В яких теках цей модуль має запускатись.                  |
 | `detect_env_vars`   | `[]`                                                 | Які змінні середовища повинні запускати цей модуль        |
 | `contexts`          | `[]`                                                 | Кастомізовані стилі та символи для конкретних контекстів. |
 | `disabled`          | `true`                                               | Вимикає модуль `kubernetes`.                              |
@@ -4117,7 +4117,7 @@ format = 'via [⚙️ $version](red bold)'
 | `version_format`    | `'v${raw}'`                              | Формат версії. Доступні змінні `raw`, `major`, `minor` та `patch` |
 | `detect_extensions` | `['sbt', 'scala']`                       | Які розширення повинні запускати цей модуль.                      |
 | `detect_files`      | `['.scalaenv', '.sbtenv', 'build.sbt']`  | Які імена файлів мають запускати цей модуль.                      |
-| `detect_folders`    | `['.metals']`                            | Які теки мають запускати цей модуль.                              |
+| `detect_folders`    | `['.metals']`                            | В яких теках цей модуль має запускатись.                          |
 | `symbol`            | `'🆂 '`                                   | Формат рядка, що представляє символ Scala.                        |
 | `style`             | `'red dimmed'`                           | Стиль модуля.                                                     |
 | `disabled`          | `false`                                  | Вимикає модуль `scala`.                                           |
