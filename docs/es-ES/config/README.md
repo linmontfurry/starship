@@ -645,7 +645,7 @@ El módulo `buf` muestra la versión instalada de [Buf](https://buf.build). By d
 | `symbol`            | `'🐃 '`                                          | El símbolo usado antes de mostrar la versión de Buf. |
 | `detect_extensions` | `[]`                                            | Qué extensiones deberían activar este módulo.        |
 | `detect_files`      | `['buf.yaml', 'buf.gen.yaml', 'buf.work.yaml']` | Qué nombres de archivo deberían activar este módulo. |
-| `detect_folders`    | `[]`                                            | Qué carpetas deberían activar estos módulos.         |
+| `detect_folders`    | `[]`                                            | Qué carpetas deberían activar este módulo.           |
 | `style`             | `'bold blue'`                                   | El estilo del módulo.                                |
 | `disabled`          | `false`                                         | Deshabilita el módulo `elixir`.                      |
 
@@ -1649,7 +1649,7 @@ El módulo también mostrará el Target Framework Moniker ([https://docs.microso
 | `heuristic`         | `true`                                                                                                  | Usa una detección de versiones más rápida para mantener la nave espacial veloz.         |
 | `detect_extensions` | `['csproj', 'fsproj', 'xproj']`                                                                         | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['global.json', 'project.json', 'Directory.Build.props', 'Directory.Build.targets', 'Packages.props']` | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                                                                                    | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                                                                                    | Qué carpetas deberían activar este módulo.                                              |
 | `style`             | `'bold blue'`                                                                                           | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                                                                                                 | Desactiva el módulo `dotnet`.                                                           |
 
@@ -1703,7 +1703,7 @@ El módulo `elixir` muestra la versión instalada de [Elixir](https://elixir-lan
 | `symbol`            | `'💧 '`                                                      | El símbolo usado antes de mostrar la versión de Elixir/Erlang.                          |
 | `detect_extensions` | `[]`                                                        | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['mix.exs']`                                               | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                                        | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                                        | Qué carpetas deberían activar este módulo.                                              |
 | `style`             | `'bold purple'`                                             | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                                                     | Deshabilita el módulo `elixir`.                                                         |
 
@@ -1759,7 +1759,7 @@ El módulo `elm` muestra la versión instalada de [Elm](https://elm-lang.org/). 
 | `symbol`            | `'🌳 '`                                             | Una cadena de formato que representa el símbolo de Elm.                                 |
 | `detect_extensions` | `['elm']`                                          | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['elm.json', 'elm-package.json', '.elm-version']` | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `['elm-stuff']`                                    | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `['elm-stuff']`                                    | Qué carpetas deberían activar este módulo.                                              |
 | `style`             | `'cyan bold'`                                      | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                                            | Deshabilita el módulo `elm`.                                                            |
 
@@ -1895,7 +1895,7 @@ El módulo `erlang` muestra la versión instalada de [Erlang/OTP](https://erlang
 | `style`             | `'bold red'`                         | El estilo del módulo.                                                                   |
 | `detect_extensions` | `[]`                                 | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['rebar.config', 'elang.mk']`       | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar este módulo.                                              |
 | `disabled`          | `false`                              | Deshabilita el módulo `erlang`.                                                         |
 
 
@@ -1946,7 +1946,7 @@ The `fennel` module shows the currently installed version of [Fennel](https://fe
 | `style`             | `'bold green'`                       | El estilo del módulo.                                                                   |
 | `detect_extensions` | `['fnl']`                            | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `[]`                                 | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar este módulo.                                              |
 | `disabled`          | `false`                              | Disables the `fennel` module.                                                           |
 
 
@@ -2904,7 +2904,7 @@ The `haxe` module shows the currently installed version of [Haxe](https://haxe.o
 | `version_format`    | `'v${raw}'`                                                                                     | El formato de versión. Las variables disponibles son `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['hx', 'hxml']`                                                                                | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['project.xml', 'Project.xml', 'application.xml', 'haxelib.json', 'hxformat.json', '.haxerc']` | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `['.haxelib', 'haxe_libraries']`                                                                | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `['.haxelib', 'haxe_libraries']`                                                                | Qué carpetas deberían activar este módulo.                                              |
 | `symbol`            | `'⌘ '`                                                                                          | A format string representing the symbol of Haxe.                                        |
 | `style`             | `'bold fg:202'`                                                                                 | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                                                                                         | Deshabilita el módulo `haxe`.                                                           |
@@ -2956,7 +2956,7 @@ El módulo `helm` muestra la versión instalada de [Helm](https://helm.sh/). Por
 | `version_format`    | `'v${raw}'`                          | El formato de versión. Las variables disponibles son `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `[]`                                 | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['helmfile.yaml', 'Chart.yaml']`    | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar este módulo.                                              |
 | `symbol`            | `'⎈ '`                               | Una cadena de formato que representa el símbolo de Helm.                                |
 | `style`             | `'bold white'`                       | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                              | Deshabilita el módulo `helm`.                                                           |
@@ -3093,7 +3093,7 @@ El módulo `java` muestra la versión instalada de [Java](https://www.oracle.com
 | `version_format`    | `'v${raw}'`                                                                                                           | El formato de versión. Las variables disponibles son `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['java', 'class', 'gradle', 'jar', 'cljs', 'cljc']`                                                                  | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['pom.xml', 'build.gradle.kts', 'build.sbt', '.java-version', 'deps.edn', 'project.clj', 'build.boot', '.sdkmanrc']` | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                                                                                                  | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                                                                                                  | Qué carpetas deberían activar este módulo.                                              |
 | `symbol`            | `'☕ '`                                                                                                                | Una cadena de formato que representa el símbolo de Java                                 |
 | `style`             | `'red dimmed'`                                                                                                        | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                                                                                                               | Deshabilita el módulo `java`.                                                           |
@@ -3225,7 +3225,7 @@ El módulo `julia` muestra la versión instalada de [Julia](https://julialang.or
 | `version_format`    | `'v${raw}'`                          | El formato de versión. Las variables disponibles son `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['jl']`                             | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['Project.toml', 'Manifest.toml']`  | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar este módulo.                                              |
 | `symbol`            | `'ஃ '`                               | Una cadena de formato que representa el símbolo de Julia.                               |
 | `style`             | `'bold purple'`                      | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                              | Deshabilita el módulo `julia`.                                                          |
@@ -3276,7 +3276,7 @@ El módulo `kotlin` muestra la versión instalada de [Kotlin](https://kotlinlang
 | `version_format`    | `'v${raw}'`                          | El formato de versión. Las variables disponibles son `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['kt', 'kts']`                      | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `[]`                                 | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `[]`                                 | Qué carpetas deberían activar este módulo.                                              |
 | `symbol`            | `'🅺 '`                               | Una cadena de formato que representa el símbolo de Kotlin.                              |
 | `style`             | `'bold blue'`                        | El estilo del módulo.                                                                   |
 | `kotlin_binary`     | `'kotlin'`                           | Configura el binario kotlin que Starship ejecuta al obtener la versión.                 |
@@ -3350,7 +3350,7 @@ Muestra el nombre actual del [contexto de Kubernetes](https://kubernetes.io/docs
 | `user_aliases`*     | `{}`                                                 | Table of user aliases to display.                                           |
 | `detect_extensions` | `[]`                                                 | Qué extensiones deberían activar este módulo.                               |
 | `detect_files`      | `[]`                                                 | Qué nombres de archivo deberían activar este módulo.                        |
-| `detect_folders`    | `[]`                                                 | Qué carpetas deberían activar estos módulos.                                |
+| `detect_folders`    | `[]`                                                 | Qué carpetas deberían activar este módulo.                                  |
 | `detect_env_vars`   | `[]`                                                 | Which environmental variables should trigger this module                    |
 | `contextos`         | `[]`                                                 | Customized styles and symbols for specific contexts.                        |
 | `disabled`          | `true`                                               | Desactiva el módulo `kubernetes`.                                           |
@@ -5345,7 +5345,7 @@ El módulo `scala` muestra la versión actualmente instalada de [Scala](https://
 | `version_format`    | `'v${raw}'`                              | El formato de versión. Las variables disponibles son `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['sbt', 'scala']`                       | Qué extensiones deberían activar este módulo.                                           |
 | `detect_files`      | `['.scalaenv', '.sbtenv', 'build.sbt']`  | Qué nombres de archivo deberían activar este módulo.                                    |
-| `detect_folders`    | `['.metals']`                            | Qué carpetas deberían activar estos módulos.                                            |
+| `detect_folders`    | `['.metals']`                            | Qué carpetas deberían activar este módulo.                                              |
 | `symbol`            | `'🆂 '`                                   | Una cadena de formato que representa el símbolo de Scala.                               |
 | `style`             | `'red dimmed'`                           | El estilo del módulo.                                                                   |
 | `disabled`          | `false`                                  | Deshabilita el módulo `scala`.                                                          |
