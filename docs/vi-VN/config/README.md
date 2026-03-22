@@ -567,7 +567,7 @@ The `buf` module shows the currently installed version of [Buf](https://buf.buil
 | `symbol`            | `'🐃 '`                                          | The symbol used before displaying the version of Buf. |
 | `detect_extensions` | `[]`                                            | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.   |
 | `detect_files`      | `['buf.yaml', 'buf.gen.yaml', 'buf.work.yaml']` | Những tên tệp nào sẽ kích hoạt mô-đun này.            |
-| `detect_folders`    | `[]`                                            | Những thư mục nào nên kích hoạt các mô đun này.       |
+| `detect_folders`    | `[]`                                            | Những thư mục nào sẽ kích hoạt mô-đun này.            |
 | `style`             | `'bold blue'`                                   | Kiểu cho module.                                      |
 | `disabled`          | `false`                                         | Vô hiệu mô đun `elixir`.                              |
 
@@ -1323,7 +1323,7 @@ The module will also show the Target Framework Moniker (<https://docs.microsoft.
 | `heuristic`         | `true`                                                                                                  | Sử dụng phiên bản phát hiện thông minh hơn.                               |
 | `detect_extensions` | `['csproj', 'fsproj', 'xproj']`                                                                         | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['global.json', 'project.json', 'Directory.Build.props', 'Directory.Build.targets', 'Packages.props']` | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                                                                                    | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                                                                                    | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `style`             | `'bold blue'`                                                                                           | Kiểu cho module.                                                          |
 | `disabled`          | `false`                                                                                                 | Vô hiệu mô đun `dotnet`.                                                  |
 
@@ -1364,7 +1364,7 @@ The `elixir` module shows the currently installed version of [Elixir](https://el
 | `symbol`            | `'💧 '`                                                      | Kí hiệu sử dụng trước phiên bản hiển thị của Elixir/Erlang.               |
 | `detect_extensions` | `[]`                                                        | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['mix.exs']`                                               | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                                        | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                                        | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `style`             | `'bold purple'`                                             | Kiểu cho module.                                                          |
 | `disabled`          | `false`                                                     | Vô hiệu mô đun `elixir`.                                                  |
 
@@ -1407,7 +1407,7 @@ The `elm` module shows the currently installed version of [Elm](https://elm-lang
 | `symbol`            | `'🌳 '`                                             | Một format string đại diện cho biểu tượng của Elm.                        |
 | `detect_extensions` | `['elm']`                                          | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['elm.json', 'elm-package.json', '.elm-version']` | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `['elm-stuff']`                                    | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `['elm-stuff']`                                    | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `style`             | `'cyan bold'`                                      | Kiểu cho module.                                                          |
 | `disabled`          | `false`                                            | Vô hiệu mô đun `elm`.                                                     |
 
@@ -1510,7 +1510,7 @@ The `erlang` module shows the currently installed version of [Erlang/OTP](https:
 | `style`             | `'bold red'`                         | Kiểu cho module.                                                          |
 | `detect_extensions` | `[]`                                 | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['rebar.config', 'elang.mk']`       | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                 | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                 | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `disabled`          | `false`                              | Vô hiệu mô đun `erlang`.                                                  |
 
 ### Các biến
@@ -1548,7 +1548,7 @@ The `fennel` module shows the currently installed version of [Fennel](https://fe
 | `style`             | `'bold green'`                       | Kiểu cho module.                                                          |
 | `detect_extensions` | `['fnl']`                            | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `[]`                                 | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                 | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                 | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `disabled`          | `false`                              | Disables the `fennel` module.                                             |
 
 ### Các biến
@@ -2273,7 +2273,7 @@ The `haxe` module shows the currently installed version of [Haxe](https://haxe.o
 | `version_format`    | `'v${raw}'`                                                                                     | The version format. Available vars are `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['hx', 'hxml']`                                                                                | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['project.xml', 'Project.xml', 'application.xml', 'haxelib.json', 'hxformat.json', '.haxerc']` | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `['.haxelib', 'haxe_libraries']`                                                                | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `['.haxelib', 'haxe_libraries']`                                                                | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `symbol`            | `'⌘ '`                                                                                          | A format string representing the symbol of Haxe.                          |
 | `style`             | `'bold fg:202'`                                                                                 | Kiểu cho module.                                                          |
 | `disabled`          | `false`                                                                                         | Disables the `haxe` module.                                               |
@@ -2312,7 +2312,7 @@ The `helm` module shows the currently installed version of [Helm](https://helm.s
 | `version_format`    | `'v${raw}'`                          | The version format. Available vars are `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `[]`                                 | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['helmfile.yaml', 'Chart.yaml']`    | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                 | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                 | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `symbol`            | `'⎈ '`                               | Một format string đại diện cho biểu tượng của Helm.                       |
 | `style`             | `'bold white'`                       | Kiểu cho module.                                                          |
 | `disabled`          | `false`                              | Vô hiệu `helm` module.                                                    |
@@ -2411,7 +2411,7 @@ The `java` module shows the currently installed version of [Java](https://www.or
 | `version_format`    | `'v${raw}'`                                                                                                           | The version format. Available vars are `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['java', 'class', 'gradle', 'jar', 'cljs', 'cljc']`                                                                  | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['pom.xml', 'build.gradle.kts', 'build.sbt', '.java-version', 'deps.edn', 'project.clj', 'build.boot', '.sdkmanrc']` | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                                                                                                  | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                                                                                                  | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `symbol`            | `'☕ '`                                                                                                                | Một format string đại diện cho biểu tượng Java                            |
 | `style`             | `'red dimmed'`                                                                                                        | Kiểu cho module.                                                          |
 | `disabled`          | `false`                                                                                                               | Vô hiệu `java` module.                                                    |
@@ -2508,7 +2508,7 @@ The `julia` module shows the currently installed version of [Julia](https://juli
 | `version_format`    | `'v${raw}'`                          | The version format. Available vars are `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['jl']`                             | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['Project.toml', 'Manifest.toml']`  | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                 | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                 | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `symbol`            | `'ஃ '`                               | Một format string đại diện cho biếu tượng của Julia.                      |
 | `style`             | `'bold purple'`                      | Kiểu cho module.                                                          |
 | `disabled`          | `false`                              | Vô hiệu `julia` module.                                                   |
@@ -2546,7 +2546,7 @@ The `kotlin` module shows the currently installed version of [Kotlin](https://ko
 | `version_format`    | `'v${raw}'`                          | The version format. Available vars are `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['kt', 'kts']`                      | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `[]`                                 | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `[]`                                 | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `[]`                                 | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `symbol`            | `'🅺 '`                               | Một format string đại diện cho biết tượng của Kotllin.                    |
 | `style`             | `'bold blue'`                        | Kiểu cho module.                                                          |
 | `kotlin_binary`     | `'kotlin'`                           | Cấu hình kotlin nhị phân mà Starship thực thi khi lấy phiên bản.          |
@@ -2600,7 +2600,7 @@ Displays the current [Kubernetes context](https://kubernetes.io/docs/concepts/co
 | `user_aliases`*     | `{}`                                                 | Table of user aliases to display.                                     |
 | `detect_extensions` | `[]`                                                 | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                   |
 | `detect_files`      | `[]`                                                 | Những tên tệp nào sẽ kích hoạt mô-đun này.                            |
-| `detect_folders`    | `[]`                                                 | Những thư mục nào nên kích hoạt các mô đun này.                       |
+| `detect_folders`    | `[]`                                                 | Những thư mục nào sẽ kích hoạt mô-đun này.                            |
 | `detect_env_vars`   | `[]`                                                 | Which environmental variables should trigger this module              |
 | `contexts`          | `[]`                                                 | Customized styles and symbols for specific contexts.                  |
 | `disabled`          | `true`                                               | Disables the `kubernetes` module.                                     |
@@ -4117,7 +4117,7 @@ The `scala` module shows the currently installed version of [Scala](https://www.
 | `version_format`    | `'v${raw}'`                              | The version format. Available vars are `raw`, `major`, `minor`, & `patch` |
 | `detect_extensions` | `['sbt', 'scala']`                       | Những tiện ích mở rộng nào sẽ kích hoạt mô-đun này.                       |
 | `detect_files`      | `['.scalaenv', '.sbtenv', 'build.sbt']`  | Những tên tệp nào sẽ kích hoạt mô-đun này.                                |
-| `detect_folders`    | `['.metals']`                            | Những thư mục nào nên kích hoạt các mô đun này.                           |
+| `detect_folders`    | `['.metals']`                            | Những thư mục nào sẽ kích hoạt mô-đun này.                                |
 | `symbol`            | `'🆂 '`                                   | A format string representing the symbol of Scala.                         |
 | `style`             | `'red dimmed'`                           | Kiểu cho module.                                                          |
 | `disabled`          | `false`                                  | Disables the `scala` module.                                              |
