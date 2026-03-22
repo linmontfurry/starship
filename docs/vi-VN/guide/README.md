@@ -408,7 +408,7 @@ Nếu bạn muốn tùy chỉnh Starship nhiều hơn nữa:
 
 ## 🤝 Đóng góp
 
-Chúng tôi luôn luôn tìm kiếm những cộng tác viên ở **tất cả các các mức độ về kĩ năng**! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/starship/starship/labels/"🌱%20good%20first%20issue").
+Chúng tôi luôn luôn tìm kiếm những cộng tác viên ở **tất cả các các mức độ về kĩ năng**! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/starship/starship/issues?q=state%3Aopen%20label%3A%22%F0%9F%8C%B1%20good%20first%20issue%22).
 
 Nếu bạn thành thạo một ngôn ngữ không phải Tiếng Anh, chúng tôi đánh giá cao mọi sự giúp đỡ của bạn trong việc dịch tài liệu của chúng tôi và cập nhật các ngôn ngữ khác. Nếu bạn muốn giúp đỡ, những bản dịch có thể được đóng góp trên [Starship Crowdin](https://translate.starship.rs/).
 
