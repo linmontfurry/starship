@@ -409,7 +409,7 @@ Si estás buscando personalizar Starship:
 
 ## 🤝 Contribuir
 
-¡Siempre estamos buscando colaboradores de **todos los niveles y habilidades**! Si buscas avanzar gradualmente en el proyecto, prueba con un [buen primer número](https://github.com/starship/starship/labels/"🌱%20good%20first%20issue").
+¡Siempre estamos buscando colaboradores de **todos los niveles y habilidades**! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/starship/starship/issues?q=state%3Aopen%20label%3A%22%F0%9F%8C%B1%20good%20first%20issue%22).
 
 Si habla con fluidez en un idioma que no es inglés, agradecemos mucho cualquier ayuda para mantener nuestros documentos traducidos y actualizados en otros idiomas. Si quieres ayudar, puedes contribuir con las traducciones en el [Crowdin de Starship](https://translate.starship.rs/).
 
